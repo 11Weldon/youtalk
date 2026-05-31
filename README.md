@@ -42,15 +42,3 @@ python -m http.server 8080
 - `article-inline.jpg` — inline-фото внутри статьи
 
 Если фото нет — автоматически показывается эмодзи-заглушка.
-
-## Критерии (50 баллов)
-
-| Критерий | Баллы | Реализация |
-|---|---|---|
-| Семантическая вёрстка | 10 | header, main, footer, nav, article, section, aside, time, blockquote |
-| Псевдоэлементы/классы | 5 | :hover, :focus-visible, ::before, ::after, ::placeholder |
-| Accessibility | 5 | aria-label, aria-current, aria-expanded, aria-pressed, role, visually-hidden, label |
-| БЭМ | 5 | card__title, tag-filter__btn--active, mobile-nav--open и др. |
-| Адаптивная вёрстка | 10 | Desktop / Tablet ≤768px / Mobile ≤480px |
-| Форматы иконок | 5 | Все иконки SVG, alt на всех img |
-| Структура документа | 10 | Вложенность, отступы 2 пробела, единый кодстайл |
